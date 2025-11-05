@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lesson</title>
+<style>
+  body {
+    background: #070709;
+    color: #efe9db;
+    font-family: "Cinzel Decorative", Georgia, serif;
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+  }
+  #lessonContainer {
+    max-width: 700px;
+    margin: auto;
+    background: rgba(0,0,0,0.5);
+    padding: 30px;
+    border-radius: 12px;
+  }
+  input {
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    font-size: 1rem;
+  }
+  button {
+    background: #efe9db;
+    color: #070709;
+    border: none;
+    padding: 10px 20px;
+    margin: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
+  <div id="lessonContainer">
+    <h1 id="lessonTitle"></h1>
+    <p id="lessonText"></p>
+    <div id="lessonQuestion"></div>
+    <button id="nextBtn">Next</button>
+    <button id="backBtn" onclick="goBack()">Back to List</button>
+  </div>
+
+<script>
+async function loadLesson() {
+  const params = new URLSearchParams(window.location.search);
+  const lessonKey = params.get('lesson');
+
+  try {
+    console.log(`Fetching lessons/${lessonKey}.json`);
+    const res = await fetch(`lessons/${lessonKey}.json`);
+    const lesson = await res.json();
+
+    document.getElementById("lessonTitle").textContent = lesson.title;
+
+    let stage = 0;
+    let questionIndex = 0;
+
+    function showStage() {
+      document.getElementById("lessonText").textContent = lesson.story[stage];
+      document.getElementById("lessonQuestion").innerHTML = "";
+    }
+
+    document.getElementById("nextBtn").onclick = function() {
+      // when a stage has a question after it
+      if (questionIndex < lesson.questions.length && stage === questionIndex) {
+        askQuestion();
+      } else if (stage < lesson.story.length - 1) {
+        stage++;
+        showStage();
+      } else {
+        document.getElementById("lessonText").textContent = "Lesson complete!";
+        this.style.display = "none";
+      }
+    };
+
+    function askQuestion() {
+      const q = lesson.questions[questionIndex];
+      document.getElementById("lessonText").textContent = "";
+      document.getElementById("lessonQuestion").innerHTML = `
+        <p>${q.q}</p>
+        <input id="answer" placeholder="Answer here...">
+        <button id="submitBtn">Submit</button>
+      `;
+      document.getElementById("submitBtn").onclick = () => {
+        if (document.getElementById("answer").value.trim().toLowerCase() === q.a.toLowerCase()) {
+          questionIndex++;
+          stage++;
+          showStage();
+        } else {
+          alert("Try again!");
+        }
+      };
+    }
+
+    showStage();
+  } catch (err) {
+    document.getElementById("lessonContainer").innerHTML = "<p>Lesson not found.</p>";
+  }
+}
+
+function goBack() {
+  const params = new URLSearchParams(window.location.search);
+  const lessonKey = params.get('lesson');
+  const region = lessonKey.split('_')[0];
+  window.location.href = `lessons.html?region=${region}`;
+}
+
+
+loadLesson();
+</script>
+</body>
+</html>

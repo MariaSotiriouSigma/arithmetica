@@ -1,0 +1,41 @@
+{
+  "title": "The Multiplication Mountains",
+  "stages": [
+    {
+      "text": "In the land of Arithmetica, where mountains shimmer with numbers and rivers whisper equations, the mighty guardian X has fallen into deep slumber. Without him, no one can cross the Multiplication Mountains. The high mathemagician explains: X’s strength is the power of multiplying — the magic that lets one thing become many, or something small become large. But multiplication has evolved since you were younger. You must rediscover its higher forms: enlarging, ratios, and areas, and brew the potion of powers to awaken him. Empowered, you lift your mountain wand, which glows brighter each time you understand a new concept.",
+      "question": null
+    },
+    {
+      "text": "In the first cave deeply embedded within the mountain rock, a merchant stirs silver dust. “See this?”, she says, holding a single grain. “One grain weighs 2.5 grams. But I must prepare a portion for 24 bottles. If one bottle needs 2.5 grams, multiplying that by 24 shows how much dust the total requires. Essentially, you find how many times you need one bottle, and multiply it by that number.”",
+      "question": {
+        "text": "How many grams of Crystal Dust do you need in total?",
+        "answer": "60 grams"
+      }
+    },
+    {
+      "text": "You reach the glowing Lake of Reflection, where numbers are carved across jagged peaks that tower on either side. The lake spirit whispers: “Fractions and decimals are two faces of the same truth. To collect my fluid strength, fill 8 flasks, each holding 0.75 litres. But remember, multiplying decimals is about place value. A smart way to do it would be to multiply 8 by the integer value (75), and divide by 100, since 75 ÷ 100 = 0.75. And remember — when dividing by a power of 10, simply shift the decimal point to the right by the number of zeroes! In this case, 2, since 100 has two zeroes!”",
+      "question": {
+        "text": "How many litres of the fluid will you collect?",
+        "answer": "6 litres"
+      }
+    },
+    {
+      "text": "Past the lake lies the Trail of Grids, patterned with perfect square rocks. One of them reads: “To find the strength of the potion, you must weave through the weeds, gather them, and create a potion cloth of 12cm and 8cm to wrap inside your potion. The area can tell you how many weeds must be collected if each one has an area of a single cm². Remember that the area of a rectangle is width × height! Sometimes, imagining the shape in your mind can help you figure it out!”",
+      "question": {
+        "text": "What is the area of the cloth?",
+        "answer": "96 cm²"
+      }
+    },
+    {
+      "text": "At the mountain’s peak, an alchemist tends blue flames. “The potion’s heat must match the ratio of wood to flame: 3 parts of wood for every 2 parts of flame. But don’t get confused — a ratio is like a fancy division! You will learn more about it in the Ratio River.”",
+      "question": {
+        "text": "If 10 parts of flame are needed, how much wood must I use?",
+        "answer": "15 parts of wood"
+      }
+    },
+    {
+      "text": "At dawn, you pour all ingredients into the cauldron. The mixture glows brighter with every concept you’ve mastered — decimals, areas, even a combination of ratios and multiplication. Monster X rises, eyes blazing with golden numbers. “You’ve restored the real magic — the understanding behind the symbol. Multiplication is more than memorizing tables; it’s how the world grows, stretches, and balances itself.” He spreads his wings and lifts you above the mountains. Below, the land of Arithmetica shines — proof that math, when understood, can move worlds.",
+      "question": null
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lessons List</title>
+<style>
+  body {
+    background: url("images/book.jpg") no-repeat center center fixed;
+    color: #efe9db;
+    font-family: "Cinzel Decorative", Georgia, serif;
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+  }
+  #lessonList {
+    max-width: 700px;
+    margin: auto;
+    background: rgba(0,0,0,0.5);
+    padding: 30px;
+    border-radius: 12px;
+  }
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .lesson-item {
+    background: rgba(255,255,255,0.1);
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  .lesson-item:hover {
+    background: rgba(255,255,255,0.2);
+  }
+  button {
+    background: #efe9db;
+    color: #070709;
+    border: none;
+    padding: 10px 20px;
+    margin: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
+  <div id="lessonList">
+    <h1 id="regionTitle">Loading...</h1>
+    <div id="lessonsContainer"></div>
+    <button onclick="goBack()">Back to Map</button>
+  </div>
+
+<script>
+async function loadLessons() {
+  const params = new URLSearchParams(window.location.search);
+  const region = params.get('region');
+
+  // Load lessons list
+  try {
+    const res = await fetch(`lessons/${region}.json`);
+    const data = await res.json();
+
+    document.getElementById("regionTitle").textContent = data.title || "Lessons";
+
+    const container = document.getElementById("lessonsContainer");
+    container.innerHTML = "";
+
+    data.lessons.forEach(lesson => {
+      const div = document.createElement("div");
+      div.className = "lesson-item";
+      div.textContent = lesson.title;
+      div.onclick = () => {
+        window.location.href = `lesson.html?lesson=${lesson.key}`;
+      };
+      container.appendChild(div);
+    });
+  } catch (err) {
+    document.getElementById("lessonList").innerHTML = "<p>Lessons not found for this region.</p>";
+  }
+}
+
+function goBack() {
+  window.location.href = "index.html";
+}
+
+loadLessons();
+</script>
+</body>
+</html>
