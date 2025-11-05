@@ -1,0 +1,22 @@
+# Git attributes for arithmetica project
+# Treat common web text files as text and normalize EOL to LF
+*.html text eol=lf
+*.htm  text eol=lf
+*.json text eol=lf
+*.css  text eol=lf
+*.js   text eol=lf
+
+# Mark binary media files as binary to avoid CRLF transformations
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.mp3 binary
+*.wav binary
+
+# Images folder - ensure binaries
+images/* binary
+
+# Prevent Git from guessing for these types
+*.min.js -text
+*.min.css -text
