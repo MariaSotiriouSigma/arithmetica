@@ -1,0 +1,55 @@
+{
+  "title": "Multiplying with 3-digit Numbers",
+  "slides": [
+    {
+      "text": "The golden ledge on which Luna had camped for the night led to a tunnel, and the tunnel led deep into the heart of the mountain. At first she was quite unsure of whether to follow this tunnel or not, seeing as she wanted to reach the summit, yet the portal through which she had come had vanished and this was her only option to continue. The path was lighted byy glowing crystals embedded in the walls, before opening up."
+    },
+    { "text": "Luna gasped. The cavern was enormous, with a celeing so high it disappeared into the shadow. Every surface sparkled. Crystals the size of Luna's fists jutted from the walls. Ancient treasure chests were stacked in rows across the cavern floor. Lanterns hung from the chains above. This was the Giant Treasure Cavern-the legendary heart of the Multiplicaiton Mountains."
+    },
+    {
+      "text": "A low voice echoed from the far end of the cavern. Luna turned to see a towering stone figure-not the same guardian as before, but older looking, more weathered, sitting on a boulder of solid rock. 'You have come far, Luna. I am the Cavern Guardian. This treasure has not been counted in a very long time, and it is useless to all, as it cannot leave the mountain until it has been counted correctly. Will you be the one to count it?'"
+    },
+    {
+      "text": "'Will you help me reach the summit of the mountain in return?' Luna asked, and the cavern guardian smiled suspiciously, before nodding. 'Luna, not having given his facial expresions much attention, got right to work.  "
+    },
+    {
+      "text": "The guardian first gestured to a row of three chests near the entrance, each filled to the brim.'Each chest holds 125 crystals. There are 3 chests. How many crystals in total?' asked the cavern guardian. Luna worked through it on paper, column by column, just as she'd been taught. One column: 5x3=15. Write down the 5, carry the one. Tens column: 2x3=6, plus the carried 1=7,  write down 7. Hundreds columns= 1x3=3, write down 3.",
+      "question": {
+      "q": "What is the total number of crystals? Hint: read all the digits you wrote down together.",
+      "a":["375.0","375"]
+      }
+    },
+    {
+      "text": "With the correct answer, the lids of the three chests flew open simultaneously, filling the cavern with blue light. Luna looked up to see the cavern guardisn nodding in approval. 'Well done. Now, for your next task, you must count how many pots of gold fill this cavern,' and he gestured to the walls, where rows of pots werre stacked. 'Each row holds 246 pots. There are 4 rows. How many pots are there?'",
+      "question": {
+      "q": "What is the total number of pots? Hint: work through it as before, column by column, carrying the values as needed.",
+      "a":["984.0","984"]
+      }
+    },
+    {
+      "text": "As Luna called out the answer, the pots all dropped to the floor, flooding the cavern with gold. 'You are doing well Luna. Now, for the final task...' The guardian rose from his boulder for the first time, stone feet shaking the ground and ricocheting the gold coins. He advanced near an enormous door of black iron, covered in maethamtical symbols, sealed iwth a lock in the shape of a quesiton mark. "
+    },
+    {
+      "text": "'For your final task, you will unlock the Grand Treasure Vault. Inside it lie the greatest crystals in all of Arithmetica. There are 5 chests within, each holding 312 crystals. Tell me the total, and the vault shall open!'The cavern guardian exclaimed, now with a hint of desparation in his voice. Luna felt the weight of the moment. She took a breath, and began working through it one column at a time.",
+      "question": {
+      "q": "What is the total number of crystals? Hint: Now you also have a thousands place value in your answer.",
+      "a":["1560.0","1560"]
+      }
+    },
+    {
+      "text": "Luna called out the answer. For a moment-nothing. The cavern guardian's face was unreadable. Then the question mark lock clicked. The iron door groaned, and slowly, with the osund of something ancient and pwoerful being set free, the Greand Treasure Vault swung open. Luna jumped back in surprise, as blinding light poured out. The cavern guardian was bursting with joy. With a snap of the guardian's fingers, all the treasures where moved outside from the cavern."
+    },
+    {
+      "text": "'Hey, you promised to show me how to get to the summit!' Luna shouted, before the cavern guardian could leave. 'Ha! You've been tricked, little one! You see, it wasn't the treasures that couldn't leave the cavern, it was me! This cavern had been cursed a long time ago, and for someone to escape, it must host a new prisoner! Now, not only do I get to leave, but i also get the Arithmetica's greatest treasures as a bonus!"
+    },
+      {
+      "text": "Luna couldn't believe what had happened. For a moment, she stood there on the cold hard rock, petrified, then made a burst for the exit. It was too late. The cavern guardian was gone in a split second, and the entrance slammed shut behind him. Luna was now completely trapped, with no way out. She lay down in the center, surrounded by darkness, her body shivering in the abscence of light."
+    },
+    {
+      "text": "Evenetually, she knew she would have to try and find away out of here. But for now, she couldn't think or move. She was too tired. So she just lay there, a tiny body in an empty, giant cavern, with nothing to keep her company than her own thoughts. "
+    },
+    {
+      "text":"Thoughts that buzzed with the day's events and with all the rules she had applied: Always start from rightmost digit and work left. Multiply each digit by each number. If the result is 10 or more, write down the ones digit and carry the tens digit. Add any carried number to the new produt before moving on. Read all digits for your final answer. At last, Luna drifted asleep to silence the buzz, but the knowledge remained. "
+    }
+    ]
+}

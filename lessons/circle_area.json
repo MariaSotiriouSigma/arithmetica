@@ -1,0 +1,44 @@
+{
+  "title": "Circumference of a Circle",
+  "slides": [
+    {
+      "text": "When Luna is lowered to the ground from the little magic circle and gets off, but before she can make a single step, she is surrounded by a tall wall of dying trees and ivy, that seemed to have abruptly sprouted from the ground."
+    },
+    { "text": "Luna's heart thumps against her chest. Her hands sweat. Her pupils widen to spot some form of exit, yet there is no escaping from this round prison the wall has trapped her in. As she paces around the small patch of grass, she hears a soft, deep sound coming from behind the wall, and as she listens harder, she realises its someone's voice."
+    },
+    {
+      "text": "'Help!' Luna cries, hoping that whoever is there can hear her. 'Have no worry, little child, you shall be freed upon the successful completion of your tasks! Your fate is yours to control, either with failure, or success!' Luna pays close attention to what the voice has to say. 'First, I will equip you with some knowledge required for a fair try. You have learned the parts of a circle, measured the distance around it, but now you must measure the space inside it'. "
+    },
+    {
+      "text": "'First, I will equip you with some knowledge required for a fair try. You have learned the parts of a circle, measured the distance around it, but now you must measure the space inside it.  This space is called the area.' The voice contineues, growing lowder now, ' To find the area of a circle, you use the radius. The radius of the given circle is squared, and then multiplied by pi. This will be your key to finding the answer, so use it wisely.' "
+    },
+    {
+      "text": "'For the first challenge, you must find the area of the circle in which you are imprisoned. You should know that it has a radius of 4 (metres).' Luna thinks carefully about what was she was taught. ",
+      "question": {
+      "q": "What is the area off the circle? Give your answer in terms of pi. Hint: use the formula area=πr^2",
+      "a": ["16π","16pi"]
+      }
+    },
+    {
+      "text": "'You may have solved the first task, but do not think the others will be as easy!' The vocie warns when Luna says the correct answer. At that instant, the wall starts to shift and turn, moving further away from Luna and leaving her in a wider space.",
+      "question": {
+      "q": "The voice asks, 'If the diameter of the circle you are currently trapped in is 12, what is the area in terms of pi?' Hint: use that the diameter is twice the radius. ",
+      "a": ["36π","36pi"]
+      } 
+    },
+    {
+      "text": "'Hmmm... Very well, very well, its time for the final challenge,' the voice announces, and the circle in which Luna stands grows wider once more. ",
+      "question": {
+      "q": "'The area of the circle you are currently standing is 147m^2. Now, what is the radius of the circle?' Hint: use the same formula, but rearrange to solve for the radius. Use pi=3, to simplify.",
+      "a": "7"
+      }
+    },
+    {
+      "text": "'You are indeed smarter than I predicted. Enjoy your freedom while it lasts!' the voice says before the wall begins to crumply, the dead trees turn to dust and all the remainings are swept away by the breeze, like it was nothing more than a false charm. 'Where did you go?' Luna questions, hoping to reveal the identity of the voice."
+    },
+    {
+      "text": "'Now isn't the time for my reveal Luna. What you must know, is that to find the area of a circle, you must square the radius and multiply it by pi. After all, circles do not only hold their secrets arond them but also within them. And my I willr emian a secret for now.' the voice hisses and then goes silent. Luna wonders is she will ever hear from it again, but until then, decides to leave the circle canopy before being trapped again. "
+    }
+    
+  ]
+}

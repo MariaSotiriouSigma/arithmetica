@@ -1,0 +1,44 @@
+{
+  "title": "Circumference of a Circle",
+  "slides": [
+    {
+      "text": "Luna follows the new path that opened up, deeper into the Circle Canopy. The forest grows quieter here. The trees bend inward, forming a perfect round roof of leaves above her head. Moonlight spills through the branches in a glowing circle on the ground. Luna steps into a wide clearing and stops at the sight of another one of the marked stones."
+    },
+    { "text": "This time, they form a different message: 'You have learned the parts of a circle, but to travel around the Circle Canopy, you must also know how to measure the distance around it'. The outline of the circular clearing where Luna is standing glows brighter. 'This distance is called the circumference'.",
+      "image":"images/circumference.png",
+      "imageWidth":"30%",
+      "imageHeight":"165px"
+    },
+    {
+      "text": "The markings contineu shifting: 'The circumference is the distance all the way around a circle. To find the circumference, we use circle's diameter, by substituting it in the formula-->c=πxd. If we use the radius, we simply multiply by two since the diameter is twice the radius-->c=πx2xr. Now, its time to walk the three trials of the canopy.'"
+    },
+    {
+      "text": "Floating lanterns begin forming a glowing ring around Luna. The voice asks 'What is the name of the distance around the edge of a circle?' Luna watches the lights rotate around her and remembers... ",
+      "question": {
+      "q": "The distance around a circle is called: ",
+      "a": ["circumference","Circumference"]
+      }
+    },
+    {
+      "text": "The lanterns lower to the ground at the sound of Luna's correct answer. The markings change once more: 'The clearing has a radius of 5 meters (r=5). Find its circumference to contineu.' Luna thinks carefully.",
+      "question": {
+      "q": "What is the circumference of the lake in terms of pi? Hint: use the formula c=2xπxr ",
+      "a": ["10π","10pi"]
+      } 
+    },
+    {
+      "text": "A glowing path circles the lanterns with the completion of the second task, and now one is left. This time, the markings read: 'This path is slightly larger. It has a diameter of 11 metres. Determine its circumference'. Luna remembers the other formula this time.",
+      "question": {
+      "q": "What is the circumference of the circle in terms of pi? Hint: use the formula c=dxπ",
+      "a": ["11π","11pi"]
+      }
+    },
+    {
+      "text": "After the final task, the circular path begins to cut into the ground, and the round clearing on which Luna is standing rises in the air, above the trees, allowing Luna to stare at the breathtaking view from above. 'WOW!', she exclaims, and realises how her new knowledge has provided her with this new plain of sight and experiences, with the world laying below her, waiting for her to discover it."
+    },
+    {
+      "text": "The lanterns rise with her into the sky, and shine the light to a new message before disappearing. 'The circumference is the distance around a circle. It can be found using the radius or the diameter. It is like the perimeter but of a circle,' and Luna lies there, floating in the air, pondering of what's to come next!"
+    }
+    
+  ]
+}

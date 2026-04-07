@@ -1,0 +1,38 @@
+{
+  "title": "Finding the whole from a percentage",
+  "slides": [
+    {
+      "text": "Days after leaving the percentage market, Luna cannot stop thinking about the words of the shadow figure, 'Percentages are a form of transformation'. If numbers can transform parts of the world, then perhaps they can also transform something else, perhaps even him. So one evening, Luna returns. She steps through the iron gates, and the sun disappears beehind the hills of Arithmetica."
+    },
+    { "text": "Luna walks through the markaet, searching for the shadow figure. When they meet, he doesn's seem surprised. 'Welcome back Luna, I was expecting you. You've left with unfinished knwoledge. Know you know how to find the percentage from a whole, but do you know how to reverse this spell? You see, knowing only a part of something can leave a burning desire to know the whole!'"
+    },
+    {
+      "text": "Luna realises this, and at her eager look, the shadow figure summons a swirl of dark coins in the air, that shape the following message: '60 COINS ARE 75% of the original treasure'. The shadow figure hisses, 'Reveal the whole,' and Luna thinks. She remembers that to find the percentage, you multiply the whole by the decimal, so now to reverse the process, she must divide! ",
+      "question": {
+      "q": "What is the total number of coins? Hint: Do the reverse and divide! Remember, division doesnt necessarily mean shrinking... ",
+      "a": "80"
+      }
+    },
+    {
+      "text": "When Luna answers correctly, the shadow figure hands her back the 18 coins, claiming it is her reward. But the challenges haven't been completed just yet. In the distance, Luna counts 8 lanterns lighting the dakr alleyway, out of the 20 that are hanging from the walls. The whisper returns, 'What percentage are glowing? And here is a little trick: You do not have to convert into a decimal at all, if you give the fraction a denominator of 100.' Luna realised how since the percentage symbol means divide by 100, if the denominator is 100, the numerator is the answer!",
+      "question": {
+      "q": "What percentage of the lanterns are glowing? Hint: First give the fraction a denominator of 100.",
+      "a": ["40", "40%"]
+      }
+    },
+    {
+      "text": "Once the shadows hear Luna's answer, all the lanterns light up, and the exit is revealed at the end of the alley. Yet before she could leave, the figure re-appeared, and said 'Crack the code of the lock, and you are free. But if not, the darkness will consume you.' Luna shivers at that thought, and recollects all she has learned, to solve the final problem. ",
+      "question": {
+      "q": "The number 1321117893 is written on the lock. What percentage of the digits are 1s? Hint: Write the number of 1s as a fraction of the total digits first.",
+      "a": ["40", "40%"]
+      }
+    },
+    {
+      "text": "The lock glows, and 'The parts of One Hundred' close slowly. Luna runs to the end of the alley, breaking free from the percentage market, and coming back into the familiar streets of Arithmetica. "
+    },
+    {
+      "text": "As she looks above, the shadows clear away from the sky and golden letters appear in the air: 'To turn a fraction into a percentage, convert to decimal, then multiply by 100.' Behind her, the tall figure retreats back into the darkness, at least for now... Yet Luna knows that percentages are a form of transformation between numbers and parts of 100, and perhaps, one day, she will help the shadow figure himself transform through the power of mathematics."
+    }
+    
+  ]
+}

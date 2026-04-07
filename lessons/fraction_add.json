@@ -1,0 +1,48 @@
+{
+  "title": "Adding Fractions",
+  "slides": [
+    {
+      "text": "In the magical land of arithmetica, numbers weren’t just written on paper, they were lived through. Deep within the circle canopy, flowed a shimmering waterfall called fraction falls, where numbers gathered and combined. One evening, a young explorer named Luna, arrived at Fraction Falls with a map and a glowing wand. But to her surprise, the waterfall was unstable! The fractions flowing into it were separated, and Arithmetica needed them added together to restore balance."
+    },
+    { "text": "Peaking over the edge of the falls, Luna read the first inscription carved into the rock protruding from within the falls. Only those who combine parts into a whole may restore the balance in the land of Arithmetica. The first challenge  involved the denominator stream. One carried ¼ of magical water, while the other carried 2/4 . Luna smiled, as she thought of how these fractions all ready were in the same family.",
+      "question": {
+        "q": "What is 1/4 +2/4? Hint: Add the numerators and keep the denominators the same",
+        "a": "3/4"
+      }
+    },
+    {
+      "text": "The water shimmered as the fractions combined into one smooth stream."
+    },
+    {
+      "text": "Further down the falls, Luna came across two floating stones blocking the path.One weighed 1/3, the other weighed 1/6. A sign read: 'Make our denominators equal before we unite.' Luna knew she had to change the fractions so they had the same denominator.",
+      "question": {
+      "q": "Re-write 1/3 so it has a denominator of 6. Hint (multiply the numerator by the same number as the denominator)",
+      "a": "2/6"
+      }
+    },
+    {
+      "text": "But the task wasn't complete just yet...",
+      "question": {
+      "q": "Now add 1/3 and 1/6 Hint: use your answer to the previous question",
+      "a": "3/6"
+      }
+    },
+    {
+      "text": "The stones shifted and clicked together, before disappearing deep below the surface of the water."
+    },
+    {
+      "text": "For the final challenge, luna needed to calm the glowing lake of bubbling water, at the heart of fraction falls. And to do that, she needed to combine 2/5 of moonlight and 2/10 of stardust.",
+      "question": {
+      "q": "What is 2/5 +2/10? Hint:remember to make the denominators the same before adding the fractions together",
+      "a": "6/10"
+      }
+    },
+    {
+      "text": "As the final problem was solved, fraction falls flowed smoothly once more, and balance was restored in the magical land of Arithmetica, all because of combining fractions correctly!"
+    },
+    {
+      "text": "By helping luna, you unlocked the key to adding fractions! Once again, a quick reminder! Same denominators-> add the numerators,  Different denominators->make them the same first"
+    }
+    
+  ]
+}

@@ -12,6 +12,23 @@
     margin: 0;
     padding: 40px;
   }
+  #audio-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+    width: 48px;
+    height: 48px;
+    fill: #efe9db;
+    transition: transform 0.4s ease, fill 0.4s ease;
+  }
+  #audio-btn.active {
+    transform: rotate(720deg);
+    fill: #f4d03f;
+  }
   #lessonList {
     max-width: 700px;
     margin: auto;
@@ -47,6 +64,13 @@
 </style>
 </head>
 <body>
+  <button id="audio-btn" aria-label="Toggle ambience" aria-pressed="false">
+    <svg viewBox="0 0 64 64">
+      <path d="M32 4a28 28 0 1 0 28 28A28 28 0 0 0 32 4zm0 50A22 22 0 1 1 54 32a22 22 0 0 1-22 22zm0-38a16 16 0 1 0 16 16 16 16 0 0 0-16-16z"/>
+    </svg>
+  </button>
+  <audio id="ambience" src="ambience.mp3" loop></audio>
+
   <div id="lessonList">
     <h1 id="regionTitle">Loading...</h1>
     <div id="lessonsContainer"></div>
@@ -54,6 +78,37 @@
   </div>
 
 <script>
+const audio = document.getElementById('ambience');
+const btn = document.getElementById('audio-btn');
+
+audio.volume = 0.2;
+
+async function setAudioPlaying(playing) {
+  if (playing) {
+    try {
+      await audio.play();
+      btn.classList.add('active');
+      btn.setAttribute('aria-pressed', 'true');
+      localStorage.setItem('audio-playing', 'true');
+    } catch (_) {
+      localStorage.setItem('audio-playing', 'false');
+    }
+  } else {
+    audio.pause();
+    btn.classList.remove('active');
+    btn.setAttribute('aria-pressed', 'false');
+    localStorage.setItem('audio-playing', 'false');
+  }
+}
+
+btn.addEventListener('click', () => {
+  setAudioPlaying(audio.paused);
+});
+
+if (localStorage.getItem('audio-playing') === 'true') {
+  setAudioPlaying(true);
+}
+
 async function loadLessons() {
   const params = new URLSearchParams(window.location.search);
   const region = params.get('region');

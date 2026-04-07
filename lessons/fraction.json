@@ -1,9 +1,9 @@
 {
   "title": "Fraction Falls Lessons",
   "lessons": [
-    { "title": "Understanding Fractions", "key": "fraction_intro" },
-    { "title": "Adding Fractions", "key": "fractions_add" },
-    { "title": "Simplifying Fractions", "key": "fractions_simplify" }
+    { "title": "Adding Fractions", "key": "fraction_add" },
+    { "title": "Multiplying Fractions", "key": "fraction_multiply" },
+    { "title": "Dividing Fractions", "key": "fraction_divide" }
   ]
 }
 

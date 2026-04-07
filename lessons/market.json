@@ -1,0 +1,8 @@
+{
+  "title": "Percentage Market Lessons",
+  "lessons": [
+    { "title": "Finding percentages of a whole", "key": "percentage_find" },
+    { "title": "Representing numbers as percentages", "key": "percentage_represent" },
+    { "title": "Finding the whole from a percentage", "key": "percentage_whole" }
+  ]
+}

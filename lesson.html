@@ -3,37 +3,73 @@
 <head>
 <meta charset="UTF-8">
 <title>Lesson</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Crimson+Text:ital@0;1&display=swap" rel="stylesheet">
 <style>
   body {
-    background: #070709;
-    color: #efe9db;
-    font-family: "Cinzel Decorative", Georgia, serif;
+    background: url("images/story.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #8B4513;
+    font-family: "Crimson Text", "Georgia", serif;
     text-align: center;
     margin: 0;
     padding: 40px;
   }
+  #audio-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+    width: 48px;
+    height: 48px;
+    fill: #efe9db;
+    transition: transform 0.4s ease, fill 0.4s ease;
+  }
+  #audio-btn.active {
+    transform: rotate(720deg);
+    fill: #f4d03f;
+  }
   #lessonContainer {
     max-width: 700px;
     margin: auto;
-    background: rgba(0,0,0,0.5);
     padding: 30px;
     border-radius: 12px;
+  }
+  #lessonTitle {
+    color: #654321;
+    font-family: "Cinzel", serif;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+  }
+  #lessonText {
+    color: #8B4513;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.2);
   }
   input {
     padding: 8px;
     border-radius: 6px;
     border: none;
     font-size: 1rem;
+    color: #333;
   }
   button {
-    background: #efe9db;
-    color: #070709;
-    border: none;
+    background: #D2B48C;
+    color: #654321;
+    border: 2px solid #8B4513;
     padding: 10px 20px;
     margin: 8px;
     border-radius: 6px;
     cursor: pointer;
     font-weight: bold;
+    font-family: "Cinzel", serif;
+  }
+  button:hover {
+    background: #8B4513;
+    color: #D2B48C;
   }
 </style>
 </head>
@@ -41,12 +77,50 @@
   <div id="lessonContainer">
     <h1 id="lessonTitle"></h1>
     <p id="lessonText"></p>
+    <div id="lessonImage"></div>
     <div id="lessonQuestion"></div>
     <button id="nextBtn">Next</button>
     <button id="backBtn" onclick="goBack()">Back to List</button>
   </div>
+  <button id="audio-btn" aria-label="Toggle ambience" aria-pressed="false">
+    <svg viewBox="0 0 64 64">
+      <path d="M32 4a28 28 0 1 0 28 28A28 28 0 0 0 32 4zm0 50A22 22 0 1 1 54 32a22 22 0 0 1-22 22zm0-38a16 16 0 1 0 16 16 16 16 0 0 0-16-16z"/>
+    </svg>
+  </button>
+  <audio id="ambience" src="ambience.mp3" loop></audio>
 
 <script>
+const audio = document.getElementById('ambience');
+const btn = document.getElementById('audio-btn');
+
+audio.volume = 0.2;
+
+async function setAudioPlaying(playing) {
+  if (playing) {
+    try {
+      await audio.play();
+      btn.classList.add('active');
+      btn.setAttribute('aria-pressed', 'true');
+      localStorage.setItem('audio-playing', 'true');
+    } catch (_) {
+      localStorage.setItem('audio-playing', 'false');
+    }
+  } else {
+    audio.pause();
+    btn.classList.remove('active');
+    btn.setAttribute('aria-pressed', 'false');
+    localStorage.setItem('audio-playing', 'false');
+  }
+}
+
+btn.addEventListener('click', () => {
+  setAudioPlaying(audio.paused);
+});
+
+if (localStorage.getItem('audio-playing') === 'true') {
+  setAudioPlaying(true);
+}
+
 async function loadLesson() {
   const params = new URLSearchParams(window.location.search);
   const lessonKey = params.get('lesson');
@@ -54,23 +128,53 @@ async function loadLesson() {
   try {
     console.log(`Fetching lessons/${lessonKey}.json`);
     const res = await fetch(`lessons/${lessonKey}.json`);
+    if (!res.ok) {
+      throw new Error(`HTTP ${res.status}: ${res.statusText}`);
+    }
     const lesson = await res.json();
 
-    document.getElementById("lessonTitle").textContent = lesson.title;
+    document.getElementById("lessonTitle").textContent = lesson.title || "";
+
+    // Support two lesson formats:
+    // - { slides: [ { text, question? } ] }
+    // - { story: [...], questions: [...] }
+    let slides = [];
+    if (lesson.slides) {
+      slides = lesson.slides;
+    } else if (lesson.story) {
+      slides = lesson.story.map((text, idx) => ({
+        text,
+        question: lesson.questions && lesson.questions[idx] ? lesson.questions[idx] : null
+      }));
+    }
 
     let stage = 0;
-    let questionIndex = 0;
+    let questionActive = false;
 
     function showStage() {
-      document.getElementById("lessonText").textContent = lesson.story[stage];
+      const slide = slides[stage];
+      document.getElementById("lessonText").textContent = slide ? slide.text : "";
+      const imageContainer = document.getElementById("lessonImage");
+      if (slide && slide.image) {
+        const imageWidth = slide.imageWidth ? `width:${slide.imageWidth};` : "max-width:100%;";
+        const imageHeight = slide.imageHeight ? `height:${slide.imageHeight};` : "";
+        imageContainer.innerHTML = `<img src="${slide.image}" alt="Lesson image" style="${imageWidth}${imageHeight} margin: 18px 0; border-radius: 12px;">`;
+      } else {
+        imageContainer.innerHTML = "";
+      }
       document.getElementById("lessonQuestion").innerHTML = "";
+      questionActive = false;
+      if (slide && slide.question) {
+        askQuestion(slide.question);
+      }
     }
 
     document.getElementById("nextBtn").onclick = function() {
-      // when a stage has a question after it
-      if (questionIndex < lesson.questions.length && stage === questionIndex) {
-        askQuestion();
-      } else if (stage < lesson.story.length - 1) {
+      if (questionActive) {
+        alert("Please answer the question first.");
+        return;
+      }
+      if (stage < slides.length - 1) {
         stage++;
         showStage();
       } else {
@@ -79,19 +183,23 @@ async function loadLesson() {
       }
     };
 
-    function askQuestion() {
-      const q = lesson.questions[questionIndex];
-      document.getElementById("lessonText").textContent = "";
+    function askQuestion(q) {
+      questionActive = true;
       document.getElementById("lessonQuestion").innerHTML = `
         <p>${q.q}</p>
         <input id="answer" placeholder="Answer here...">
         <button id="submitBtn">Submit</button>
       `;
       document.getElementById("submitBtn").onclick = () => {
-        if (document.getElementById("answer").value.trim().toLowerCase() === q.a.toLowerCase()) {
-          questionIndex++;
-          stage++;
-          showStage();
+        const userAnswer = document.getElementById("answer").value.trim().toLowerCase();
+        
+        // Support both single answer and array of answers
+        let correctAnswers = Array.isArray(q.a) ? q.a : [q.a];
+        correctAnswers = correctAnswers.map(a => (a || "").toLowerCase());
+        
+        if (correctAnswers.includes(userAnswer)) {
+          document.getElementById("lessonQuestion").innerHTML = "";
+          questionActive = false;
         } else {
           alert("Try again!");
         }
@@ -100,7 +208,8 @@ async function loadLesson() {
 
     showStage();
   } catch (err) {
-    document.getElementById("lessonContainer").innerHTML = "<p>Lesson not found.</p>";
+    console.error('Load error:', err);
+    document.getElementById("lessonContainer").innerHTML = `<p>Lesson not found: ${err.message || err}</p>`;
   }
 }
 

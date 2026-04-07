@@ -1,0 +1,8 @@
+{
+  "title": "Basics before the journey",
+  "lessons": [
+    { "title": "About this site", "key": "basics_info" },
+    { "title": "Meaning of general math terms", "key": "basics_terms" },
+    { "title": "Before you begin...", "key": "basics_begin" }
+  ]
+}

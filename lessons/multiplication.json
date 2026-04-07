@@ -1,8 +1,0 @@
-{
-  "title": "Multiplication Mountains Lessons",
-  "lessons": [
-    { "title": "Understanding Multiplication", "key": "multiplication_intro" },
-    { "title": "Long Multiplication", "key": "fractions_add" },
-    { "title": "Multiplication with decimals", "key": "fractions_simplify" }
-  ]
-}

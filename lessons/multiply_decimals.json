@@ -1,0 +1,46 @@
+{
+  "title": "Multiplying with Decimals",
+  "slides": [
+    {
+      "text": "After many adventures across the land of arithmetica, through the fraction forests, past the fraction falls and over the circle canopy, Luna came across the Multiplication Mountains. They rose so hihg into the cloud that their peaks were invisible, and legends said their paths were paved with glowing crystals. She had been walking for two days when she finally saw them. They were even more magnificent than described!"
+    },
+    { "text": "But as she stepped onto the first path, the crystals were shattered! Fragments from the path dropped into the darkness below, and her heart snak, with no way to go forward. That was until a rumbling echoes across the mountainside, and a stone guardian tall as a tree, with a body made of boulders rose from the ground, and spoke in a voice like the grinding of the Earth."
+    },
+    {
+      "text": "'The paths of Multiplicaiton Mountains form only through the power of numbers. They can only be rebuilt by one who understands how to multiply decimals. Are you that traveller?' Luna straightened up. 'Tell me what needs to be done,' she answered. The guardian immediately pointed to the first broken path. A faint inscriptionin the rock read: 'This path must be repeated 4 times, to reach the next ledge. Now, it is 1.5 metres.'"
+    },
+    {
+      "text": "She remembered learning back at home, that when you multiply a decimal, you shouldn't worry about the decimal point straigh away. Instead, treat the number as if the point isn't there. She first thought of the answer to 15 x 4, which equals 60. Then, she counted the decimal places in the original numbers, 1.5 has one digit after the decimal, while 4 has none, so in total, there is one decimal place in the answer.",
+      "question": {
+      "q": "What is the answer to 1.5 x 4? Hint: count on place from the right to place the decimal point correctly.",
+      "a": ["6.0","6"]
+      }
+    },
+    {
+      "text": "Further up the slope, Luna heard bells, and around a rocky bend appeared a line of mountain goats, each one carrying a woven basket stuffed with berries. A young goatherd ran after them frantically, and cried out 'I need to know how heavy all the baskets are together! Each one weighs 2.3kg, and there are 3 of them, but I can't work it out!'",
+      "question": {
+      "q": "What is 2.3 x 3? Hint: set the decimal aside first, and then bring it back in the correct position by counting the digits after the decimal point, as before.",
+      "a":"6.9"
+      }
+    },
+    {
+      "text": "After more multiplying that led to path-fixing, Luna reached the Crystal Gate at the very top of the first peak. The gate, being made of crystals, was also about to collapse, and if it fell, the path beyond it would be sealed forever. The inscription above it read: 'This gate requries 0.5 metres of crystals, repeated 2.5 times, to be strongly established.' This time, Luna had to consider the decimal points in two numbers... "
+    },
+    {
+      "text": "To solve 2.5 x 0.5, she first counted the decimal places. There was one for each number, so 2 in total. Then, she ignored the points and multiplied the numbers as normal, and finally placed the point back in the answer, two values from the right (as this was the number of decimal places found originally)",
+      "question": {
+      "q": "What is 2.5 x 0.5? Hint: use the same method as before, and the steps above to help you.",
+      "a": "1.25"
+      }
+    },
+    {
+      "text": "Luna called out the answer and the gate healed rapidly, into the beautiful, glowing structure it once was. Having come this far, Luna felt that ther would be no trouble fixing the rest of the paths, and yet as she was about to contineu her journey, the familiar rumble was heard, and the stone guardian reappeared."
+    },
+    {
+      "text": "' You have performed excellently so far. As a reward for your behaviour, I rid you of the burden to fix the other paths. Do not worry, for they will reform automatically, after your magical work on the others.' The guardian explained. Luna smiled, and was about to go freely explore the rest of the mountainside."
+    },
+    {
+      "text": "Just before she turned around, the stone guardian called to her: 'Remember, to multiply decimals, you must first ignore any decimal point, and multiply the numbers normally. Count how many digits come after the decimal points in the original numbers, and starting from the right of your answer, count that many places. Finally, insert the point there.' Luna took note of this, and saw the stone guardian merge again with the mountain rock, leaving no trace behind."
+    }
+  ]
+}

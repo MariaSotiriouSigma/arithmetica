@@ -1,0 +1,38 @@
+{
+  "title": "Representing numbers as percentages",
+  "slides": [
+    {
+      "text": "The iron gates have been slammed shut. THe lanterns flicker out one by one. Luna feels herself pulled behind the market stalls, into a narrow alley where numbers ae scratched into stone walls like warnings. The tall, thin figure releases her arm, and to her surprise, says something she didnt expect. 'You know how to take percentages of a whole, but do you know how to become one?' Luna stares confused. The figure summons a book floating in the air and drops it on her lap."
+    },
+    { "text": "The cover reads: 'The parts of 100'. The voice hisses, ' A percentage is alaways a number written out of 100. To turn a number into a percentage, it should first be written as a fraction if needed, then converted into a decimal and multiplied by 100. Everything must be converted correctly, or remain in the shadows forever.' As he opens the book, the first challenge is bruned into the page. "
+    },
+    {
+      "text": "On the ground lie 18 of the 72 coins that Luna previously handed to the tailor. The voice whispers, 'What percentage of the coins are on the ground?', and Luna thinks. First, she writes it as a fraction, 18/72, then converts into a decimal be dividing 18 by 72. There is one step remaining. ",
+      "question": {
+      "q": "What is 18/72 as a percentage? Hint: After converting to a decimal, think about what the percentage sign means, and do the reverse.",
+      "a": ["25", "25%"]
+      }
+    },
+    {
+      "text": "When Luna answers correctly, the shadow figure hands her back the 18 coins, claiming it is her reward. But the challenges haven't been completed just yet. In the distance, Luna counts 8 lanterns lighting the dakr alleyway, out of the 20 that are hanging from the walls. The whisper returns, 'What percentage are glowing? And here is a little trick: You do not have to convert into a decimal at all, if you give the fraction a denominator of 100.' Luna realised how since the percentage symbol means divide by 100, if the denominator is 100, the numerator is the answer!",
+      "question": {
+      "q": "What percentage of the lanterns are glowing? Hint: First give the fraction a denominator of 100.",
+      "a": ["40", "40%"]
+      }
+    },
+    {
+      "text": "Once the shadows hear Luna's answer, all the lanterns light up, and the exit is revealed at the end of the alley. Yet before she could leave, the figure re-appeared, and said 'Crack the code of the lock, and you are free. But if not, the darkness will consume you.' Luna shivers at that thought, and recollects all she has learned, to solve the final problem. ",
+      "question": {
+      "q": "The number 1321117893 is written on the lock. What percentage of the digits are 1s? Hint: Write the number of 1s as a fraction of the total digits first.",
+      "a": ["40", "40%"]
+      }
+    },
+    {
+      "text": "The lock glows, and 'The parts of One Hundred' close slowly. Luna runs to the end of the alley, breaking free from the percentage market, and coming back into the familiar streets of Arithmetica. "
+    },
+    {
+      "text": "As she looks above, the shadows clear away from the sky and golden letters appear in the air: 'To turn a fraction into a percentage, convert to decimal, then multiply by 100.' Behind her, the tall figure retreats back into the darkness, at least for now... Yet Luna knows that percentages are a form of transformation between numbers and parts of 100, and perhaps, one day, she will help the shadow figure himself transform through the power of mathematics."
+    }
+    
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Meaning of general math terms", 
+  "slides": [
+    {
+      "text": "Following are some terms and concepts that you should know to help Luna cope with the upcoming challenges"
+    },
+    { "text": "1. Numerator and Denominator: The numerator is the top number in the fraction. The denominator is the bottom number."
+    },
+    {
+      "text": "2. Reciprocals: The reciprocal of a fraction is the same fraction, but flipped. The numerator becomes the new denominator, and the old denominator becomes the new numerator."
+    },
+    {
+      "text":"3. π (pi): pi is a mathematical constant with never-ending decimals after the point. For easier use, students round pi to a shorter value, like 3.14. It is the answer you get when dividing a circle's circumference by its diameter (you will learn these terms in the circle canopy)."
+    },
+    {
+      "text": "4.Decimals: decimals are separated from the whole part of a number using a point (.). They are the part of the number that is less than one, and are added to the whole part of the number. For example 14.5 means 14 plus another half (0.5)."
+    },
+    {
+      "text": "5. Negative numbers: negative numbers are separated from positive numbers by placing a minus sign (-) infront of them. They are the numbers that are less than zero. The greater the value behind the minus, the smaller the number. For example, -5 is smaller than -1."
+    },
+    {
+      "text": "..."
+    }  
+  ]
+}

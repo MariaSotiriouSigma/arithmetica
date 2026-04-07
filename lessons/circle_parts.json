@@ -1,0 +1,56 @@
+{
+  "title": "Parts of a Circle",
+  "slides": [
+    {
+      "text": "Far beyond the bright rivers and glowing valleys of Airhtmetica, there stands an ancient forest few travelers ever reach: The Circle Canopy. No one knows who planted the forest long ago, but every tree, pond and clearing forms a perfect circle. One evening, Luna steps beneath the tall curved trees, the ground beneath her forming a perfect round clearing. She moves to the center, where an old stone shines, with markings inside a golden circle. "
+    },
+    { "text": "she reads, 'To walk safely through the Circle Canopy, you must first understand the parts of a circle'. The glowing circle slowly lifts from the stone and floats in the air infront of her. A bright dot appears in the very middle. The markings in the stone shift. 'The center,' they write, 'is the exact middle of the circle.'"
+    },
+    {
+      "text": "A beam of light stretches from the center to the edge of the circle. 'This glowing path is the radius. It shows the distance from the center to the edge.'",
+      "image":"images/radius.png",
+      "imageWidth":"25%",
+      "imageHeight":"165px"
+    },
+    {
+      "text": "Another beam flashes suddenly across the entire circle, touching both sides. 'This is the diameter. It travels across the circle through the center. It is always twice as long as the radius.'",
+      "image":"images/diameter.png",
+      "imageWidth":"25%",
+      "imageHeight":"165px"
+    },
+    {
+      "text": "Then, with a shimmer, a slice of the circle lights up like a glowing piece of pie. 'This part is called a sector. It is a slic of the circle between two radii.'",
+      "image":"images/sector.png",
+      "imageWidth":"25%",
+      "imageHeight":"165px"
+    },
+    {
+      "text": "'You have seen the circle's secrets,' the markings say now. 'But knowledge alone is not enough. You must learn how to apply it and pass the three trials.' The glowing circle lowers to the forest floor and from the glowing center, a single line stretches out to the edge of the circle like a shining path. 'What is the name of this line?'. Luna thinks carefully.",
+      "question": {
+      "q": "The line from the center to the edge of a circle is called:",
+      "a": ["radius","Radius"]
+      }
+    },
+    {
+      "text": "Suddenly, the glowing line grows longer. It strethces all the way across the circle, passing through the center, and touching the opposite side. The markings shift once more. 'If the radius is 6, what is the diameter?'",
+      "question": {
+      "q": "Length of diameter:",
+      "a": "12"
+      }
+    },
+    {
+      "text": "As the final problem appears in the stone, the circle begins to spin, and a bright slice lights up inside it, like a cake cut form the whole. The markings form one last question.",
+      "question": {
+      "q": "What do you call a slice of a circle between two radii?",
+      "a": ["sector","Sector"]
+       }
+    },
+    {
+      "text": "With the solving of the final problem, the circle rises into the air and bursts intio tiny sparks of light. The trees gently move appart and a hidden path opens deeper into the glowing forest. The circle Canopy has accepted Luna. Before she steps onto the path, she notices the writing that formed from the sparks of the shattered circle."
+    },
+    {
+      "text": "'The center is the middle of the circle. The radius goes from teh circle to the edge. The diameter crosses the circle through the center. A sector is a slice of the circle.' And as Luna steps unto the path, somewhere in the distance, another circle of light begins to glow- waiting to reveal its secret."
+    }
+    
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "title": "Finding percentages of a whole",
+  "slides": [
+    {
+      "text": "Beyond the bright rivers and glowing forests of Arithmetica, lies a place few dare to visit. The Percentage Market. It awakens only at dusk. Lanterns flicker. Coinc clink. Traders whisper in numbers instead of words. Nothing here is sold whole-everything is offered in parts. Parts of one hundred. Lunasteps through the iron gates. A hooded beggar leans forward. 'In this marker', he rasps, 'You must understand what a percentage truly is... Or you will pay more than you desire.' Luna'S wand grows faintly at his words, and he shuffles away back into the shadows."
+    },
+    { "text": "From behind, a masked child looms towards Luna, who suddenly turns around to see it drawing a circle of dust. 'Percent means per hundred', the child whispers. '100 small pieces make the whole.' Luna nods obediently once more, and realises that this idea that seemed so complicated, was actually quite simple. 80% means 80 out of 100, or 80/100, which is the same as 0.80. The child smiles with Luna's enlightenment, and vanishes into the crowd"
+    },
+    {
+      "text": "Further down the street, a shadowed tailor lifts a dark, sliver cloak. 'Hello little girl' he smirks, 'This cloak costs 80 gold coins, but tonight, 90% of the price must be paid.' he says, hoping to trick Luna. But Luna thinks carefully. To find 990% of 80, she knows that she must convert 90 into a fraction or decimal, and multiply by 80. ",
+      "question": {
+      "q": "What is 90% of 80? Hint: convert 90% into a fraction or decimal by removing the percentage sign and dividing by 100.",
+      "a": "72"
+      }
+    },
+    {
+      "text": "The tailor glares in disbelief, and hands over the cloack to Luna, as she pays the correct amount and contineus walking deeper into the market. A few stalls down, and oil seller pours black liquid into crystal bottles. He stares up at Luna eyeing the bottles, and says 'You may take 40% of my 150 litres. No more, or you will be punished!' Luna nods, and quickly calculates.",
+      "question": {
+      "q": "What is 40% of 150? Hint: follow the same method as before.",
+      "a": "60"
+      }
+    },
+    {
+      "text": "After the successful exchange, Luna decides to return home, but is stopped by a deep voice calling her name. A tall, bony figure with a long, thin, beard is standing behind a golden scale and calls to her, 'All purchases include a 25% market tax.' Luna's total was 200 gold coins, and the figure asks: ",
+      "question": {
+      "q": "What is 25% of 200?",
+      "a": "50"
+      }
+    },
+    {
+      "text": "Luna confidently answers 50, and hands over the additional coins, turning around to leave. Only then, does she feel someone strongly grasping her by the arm, and pulling her deep into the shadows of the marker, behind the stalls, their bony fingers piercing her skin. Luna screams, but no one comes to save her."
+    },
+    {
+      "text": "She heard the gates of the Percentage Market creak shut, and knew she was in trouble. Now the only way to escape this percentage world, was to use whatever she had learned. Percent means per hundred, and to find the percentage of a number, you must convert to a fraction or decimal and multiply by the number. Hopefully, it will be all she needs..."
+    }
+    
+  ]
+}

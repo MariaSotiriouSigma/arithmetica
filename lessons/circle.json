@@ -1,0 +1,8 @@
+{
+  "title": "Circle Canopy lessons",
+  "lessons": [
+    { "title": "Parts of a Circle", "key": "circle_parts" },
+    { "title": "Circumference of a Circle", "key": "circle_circumference" },
+    { "title": "Area of a Circle", "key": "circle_area" }
+  ]
+}

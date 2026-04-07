@@ -132,7 +132,19 @@
     <div class="content">
       <h1 class="hero-title">Welcome to Arithmetica</h1>
       <p>A world where numbers whisper and riddles shape the land.<br>Scroll to begin your quest.</p>
-      <p><button class="btn" onclick="scrollToEl('fraction')">Begin at Fraction Falls</button></p>
+      <p><button class="btn" onclick="scrollToEl('basics')">Begin at Basics</button></p>
+    </div>
+  </section>
+
+  <section id="basics" class="panel" data-bg="images/basics.jpg">
+    <div class="bg"></div><div class="overlay"></div>
+    <div class="content">
+      <h2 class="region-title">Basics Before the Journey</h2>
+      <p>Master the fundamentals before you venture into the realms.</p>
+      <p>
+        <button class="btn" onclick="viewLessons('basics')">Begin at Basics</button>
+        <button class="small-link" onclick="scrollToEl('fraction')">Next →</button>
+      </p>
     </div>
   </section>
 
@@ -143,18 +155,6 @@
       <p>Where the waters split evenly.</p>
       <p>
         <button class="btn" onclick="viewLessons('fraction')">View Lessons</button>
-        <button class="small-link" onclick="scrollToEl('multiply')">Next →</button>
-      </p>
-    </div>
-  </section>
-
-  <section id="multiply" class="panel" data-bg="images/multiplicationmountains.jpg">
-    <div class="bg"></div><div class="overlay"></div>
-    <div class="content">
-      <h2 class="region-title">Multiplication Mountains</h2>
-      <p>Where peaks rise with every product.</p>
-      <p>
-        <button class="btn" onclick="viewLessons('multiply')">View Lessons</button>
         <button class="small-link" onclick="scrollToEl('market')">Next →</button>
       </p>
     </div>
@@ -167,18 +167,6 @@
       <p>Where every deal counts in parts of a hundred.</p>
       <p>
         <button class="btn" onclick="viewLessons('market')">View Lessons</button>
-        <button class="small-link" onclick="scrollToEl('triangle')">Next →</button>
-      </p>
-    </div>
-  </section>
-
-  <section id="triangle" class="panel" data-bg="images/triangletrench.jpg">
-    <div class="bg"></div><div class="overlay"></div>
-    <div class="content">
-      <h2 class="region-title">Triangle Trench</h2>
-      <p>Where sides meet secrets.</p>
-      <p>
-        <button class="btn" onclick="viewLessons('triangle')">View Lessons</button>
         <button class="small-link" onclick="scrollToEl('circle')">Next →</button>
       </p>
     </div>
@@ -191,6 +179,30 @@
       <p>Where arcs trace harmony.</p>
       <p>
         <button class="btn" onclick="viewLessons('circle')">View Lessons</button>
+        <button class="small-link" onclick="scrollToEl('multiply')">Next →</button>
+      </p>
+    </div>
+  </section>
+
+  <section id="multiply" class="panel" data-bg="images/multiplicationmountains.jpg">
+    <div class="bg"></div><div class="overlay"></div>
+    <div class="content">
+      <h2 class="region-title">Multiplication Mountains</h2>
+      <p>Where peaks rise with every product.</p>
+      <p>
+        <button class="btn" onclick="viewLessons('multiply')">View Lessons</button>
+        <button class="small-link" onclick="scrollToEl('triangle')">Next →</button>
+      </p>
+    </div>
+  </section>
+
+  <section id="triangle" class="panel" data-bg="images/triangletrench.jpg">
+    <div class="bg"></div><div class="overlay"></div>
+    <div class="content">
+      <h2 class="region-title">Triangle Trench</h2>
+      <p>Where sides meet secrets.</p>
+      <p>
+        <button class="btn" onclick="viewLessons('triangle')">View Lessons</button>
         <button class="small-link" onclick="scrollToEl('ratio')">Next →</button>
       </p>
     </div>
@@ -238,19 +250,36 @@
   const audio = document.getElementById('ambience');
   const btn = document.getElementById('audio-btn');
   audio.volume = 0.2;
-  btn.addEventListener('click', () => {
-    if (audio.paused) {
-      audio.play().catch(() => {});
-      btn.classList.add('active');
+
+  async function setAudioPlaying(playing) {
+    if (playing) {
+      try {
+        await audio.play();
+        btn.classList.add('active');
+        btn.setAttribute('aria-pressed', 'true');
+        localStorage.setItem('audio-playing', 'true');
+      } catch (_) {
+        localStorage.setItem('audio-playing', 'false');
+      }
     } else {
       audio.pause();
       btn.classList.remove('active');
+      btn.setAttribute('aria-pressed', 'false');
+      localStorage.setItem('audio-playing', 'false');
     }
+  }
+
+  btn.addEventListener('click', () => {
+    setAudioPlaying(audio.paused);
   });
+
+  if (localStorage.getItem('audio-playing') === 'true') {
+    setAudioPlaying(true);
+  }
 
   // --- NEW: Open Lesson Page ---
   function viewLessons(region) {
-  window.location.href = `lessons.html?region=${region}`;
+    window.location.href = `lessons.html?region=${region}`;
   }
 
 </script>

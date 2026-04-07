@@ -1,0 +1,8 @@
+{
+  "title": "Multiplication Mountains Lessons",
+  "lessons": [
+    { "title": "Multiplying with Decimals", "key": "multiply_decimals" },
+    { "title": "Multiplying with Negative Numbers", "key": "multiply_negative" },
+    { "title": "Multiplying with 3-digit Numbers", "key": "multiply_multidigit" }
+  ]
+}

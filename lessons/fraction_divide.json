@@ -1,0 +1,45 @@
+{
+  "title": "Dividing Fractions",
+  "slides": [
+    {
+      "text": "Fraction falls was flowing peacefully once again. But one evening, Luna noticed something strange-the water was splitting unevenly, as if the fractions no longer remembered how to share."
+    },
+    { 
+        "text": "The ancient water spirit rose from the mist and spoke: “To restore the falls once again, you must divide wisely”. Luna stepped forward, her wand glowing brighter than ever, ready to save Arithmetica once again."
+    },
+    {
+      "text": "The falls were used as a primary water source for the arithmetica village, and so the water collected had to be shared equally. That day, 3/4 of a barrel of water were collected. This water had to be shared equally into portions of ¼. ",
+      "question": {
+      "q": "How many 1/4s fit inside ¾? Hint: To divide, flip the second fraction and multiply them as you learned",
+      "a":  ["3", "3/1"]
+      }
+    },
+    {
+      "text": "The water then split into equal portions and was delivered to the people of Arithmetica, reassuring them that there is hope for the falls."
+    },
+    {
+      "text": "Next, Luna found the rivers flowing from the lake at the bottom of the falls, which flowed into channels. She saw that the rivers could carry 2/3 of the water from the lake, and each channel could carry 1/6 of the water flowing in a river. Luna wondered how many channels can be filled with the water carried by the lake? ",
+      "question": {
+      "q": "Solve: 2/3 divided by 1/6. Hint: the flipped fraction, is called the reciprocal of the fraction",
+      "a":  ["4", "4/1"]
+      }
+    },
+    {
+      "text": "The channels lit up one by one, glowing with the energy from the magic water!"
+    },
+    {
+      "text": "At the top of the Falls, mist drifted through the air. Luna captured 4/5 of a cloud of mist, but each spell needed 1/5 to work. Before performing the magic trick, Luna focused.",
+      "question": {
+      "q": "How many spells can she cast with this magical mist?",
+      "a":  ["4", "4/1"]
+      }
+    },
+    {
+      "text": "With the casting of the spells, the mist shimmered, and the air grew calm again, covering the falls like a peaceful blanket. Before settling in complete harmony again, the waterfall revealed one final message. "
+    },
+    {
+      "text": "To divide fractions: Keep the first fraction, flip the second fraction (reciprocal), multiply and simplify the answer. With the Falls restored once more, Luna smiled. She had mastered the most mysterious fraction magic of all!"
+    }
+    
+  ]
+}
