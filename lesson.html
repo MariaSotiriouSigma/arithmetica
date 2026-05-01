@@ -74,69 +74,83 @@
   }
 
   /* Mobile responsiveness */
-  @media (max-width: 768px) {
-    body {
-      padding: 10px;
-    }
+body {
+  background: url("images/story.jpg") no-repeat center center;
+  background-size: cover;
+  color: #8B4513;
+  font-family: "Crimson Text", "Georgia", serif;
+  text-align: center;
+  margin: 0;
+  padding: 40px 20px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
 
-    #lessonContainer {
-      max-width: 90vw;
-      padding: 15px;
-    }
+#lessonContainer {
+  max-width: 700px;
+  width: 100%;
+  margin: auto;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
 
-    #lessonTitle {
-      font-size: 2rem;
-    }
+#lessonTitle {
+  color: #654321;
+  font-family: "Cinzel", serif;
+  font-weight: 700;
+  font-size: clamp(1.6rem, 6vw, 2.5rem);
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+  line-height: 1.3;
+}
 
-    #lessonText {
-      font-size: 1.1rem;
-      line-height: 1.8;
-    }
+#lessonText {
+  color: #8B4513;
+  font-size: clamp(1.2rem, 4.5vw, 1.4rem);
+  line-height: 1.9;
+  text-shadow: 1px 1px 1px rgba(255,255,255,0.2);
+  word-wrap: break-word;
+}
 
-    input {
-      padding: 8px;
-      font-size: 1rem;
-    }
+input {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: clamp(1rem, 3.5vw, 1.1rem);
+  color: #333;
+  width: 80%;
+  max-width: 320px;
+  box-sizing: border-box;
+}
 
-    button {
-      padding: 10px 20px;
-      font-size: 1rem;
-    }
+button {
+  background: #D2B48C;
+  color: #654321;
+  border: 2px solid #8B4513;
+  padding: 12px 24px;
+  margin: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Cinzel", serif;
+  font-size: clamp(0.95rem, 3.5vw, 1rem);
+}
+
+button:hover {
+  background: #8B4513;
+  color: #D2B48C;
+}
+
+/* Only one mobile breakpoint, doing one job */
+@media (max-width: 600px) {
+  body {
+    padding: 20px 12px;
   }
 
-  @media (max-width: 480px) {
-    body {
-      padding: 5px;
-    }
-
-    #lessonContainer {
-      max-width: 85vw;
-      padding: 10px;
-    }
-
-    #lessonTitle {
-      font-size: 2.5rem;
-      line-height: 1.2;
-    }
-
-    #lessonText {
-      font-size: 1.4rem;
-      line-height: 2;
-      word-wrap: break-word;
-      hyphens: auto;
-    }
-
-    input {
-      padding: 10px;
-      font-size: 1.1rem;
-    }
-
-    button {
-      padding: 12px 24px;
-      font-size: 1.1rem;
-      margin: 8px;
-    }
+  #lessonContainer {
+    padding: 20px 16px;
   }
+}
 </style>
 </head>
 <body>
