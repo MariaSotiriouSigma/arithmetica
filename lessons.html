@@ -5,12 +5,14 @@
 <title>Lessons List</title>
 <style>
   body {
-    background: url("images/book.jpg") no-repeat center center fixed;
+    background: url("images/book.jpg") no-repeat center center;
+    background-size: cover;
     color: #efe9db;
     font-family: "Cinzel Decorative", Georgia, serif;
     text-align: center;
     margin: 0;
     padding: 40px;
+    min-height: 100vh;
   }
   #audio-btn {
     position: fixed;
@@ -65,21 +67,21 @@
   /* Mobile responsiveness */
   @media (max-width: 768px) {
     body {
-      padding: 20px;
+      padding: 10px;
     }
 
     #lessonList {
-      max-width: 90vw;
-      padding: 20px;
+      max-width: 95vw;
+      padding: 15px;
     }
 
     h1 {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
     }
 
     .lesson-item {
       padding: 12px;
-      font-size: 0.9rem;
+      font-size: 1rem;
     }
 
     button {
@@ -90,26 +92,27 @@
 
   @media (max-width: 480px) {
     body {
-      padding: 15px;
+      padding: 5px;
     }
 
     #lessonList {
-      padding: 15px;
+      max-width: 98vw;
+      padding: 10px;
     }
 
     h1 {
-      font-size: 1.4rem;
+      font-size: 1.8rem;
     }
 
     .lesson-item {
-      padding: 10px;
-      font-size: 0.8rem;
+      padding: 15px;
+      font-size: 1.1rem;
     }
 
     button {
-      padding: 6px 12px;
-      font-size: 0.8rem;
-      margin: 4px;
+      padding: 10px 20px;
+      font-size: 1rem;
+      margin: 8px;
     }
   }
 </style>
