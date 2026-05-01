@@ -71,6 +71,65 @@
     background: #8B4513;
     color: #D2B48C;
   }
+
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    body {
+      padding: 20px;
+    }
+
+    #lessonContainer {
+      max-width: 90vw;
+      padding: 20px;
+    }
+
+    #lessonTitle {
+      font-size: 1.8rem;
+    }
+
+    #lessonText {
+      font-size: 1rem;
+    }
+
+    input {
+      padding: 6px;
+      font-size: 0.9rem;
+    }
+
+    button {
+      padding: 8px 16px;
+      font-size: 0.9rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    body {
+      padding: 15px;
+    }
+
+    #lessonContainer {
+      padding: 15px;
+    }
+
+    #lessonTitle {
+      font-size: 1.4rem;
+    }
+
+    #lessonText {
+      font-size: 0.9rem;
+    }
+
+    input {
+      padding: 5px;
+      font-size: 0.8rem;
+    }
+
+    button {
+      padding: 6px 12px;
+      font-size: 0.8rem;
+      margin: 4px;
+    }
+  }
 </style>
 </head>
 <body>
