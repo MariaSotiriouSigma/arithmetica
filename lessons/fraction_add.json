@@ -2,9 +2,16 @@
   "title": "Adding Fractions",
   "slides": [
     {
-      "text": "In the magical land of arithmetica, numbers weren’t just written on paper, they were lived through. Deep within the circle canopy, flowed a shimmering waterfall called fraction falls, where numbers gathered and combined. One evening, a young explorer named Luna, arrived at Fraction Falls with a map and a glowing wand. But to her surprise, the waterfall was unstable! The fractions flowing into it were separated, and Arithmetica needed them added together to restore balance."
+      "text": "In the magical land of arithmetica, numbers weren’t just written on paper, they were lived through. Deep within the circle canopy, flowed a shimmering waterfall called fraction falls, where numbers gathered and combined."
     },
-    { "text": "Peaking over the edge of the falls, Luna read the first inscription carved into the rock protruding from within the falls. Only those who combine parts into a whole may restore the balance in the land of Arithmetica. The first challenge  involved the denominator stream. One carried ¼ of magical water, while the other carried 2/4 . Luna smiled, as she thought of how these fractions all ready were in the same family.",
+    {
+      "text": "One evening, a young explorer named Luna, arrived at Fraction Falls with a map and a glowing wand. But to her surprise, the waterfall was unstable! The fractions flowing into it were separated, and Arithmetica needed them added together to restore balance."
+    },
+    {
+      "text": "Peaking over the edge of the falls, Luna read the first inscription carved into the rock protruding from within the falls. Only those who combine parts into a whole may restore the balance in the land of Arithmetica."
+    },
+    { 
+      "text": "The first challenge  involved the denominator stream. One carried ¼ of magical water, while the other carried 2/4 . Luna smiled, as she thought of how these fractions all ready were in the same family.",
       "question": {
         "q": "What is 1/4 +2/4? Hint: Add the numerators and keep the denominators the same",
         "a": "3/4"

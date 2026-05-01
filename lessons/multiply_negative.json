@@ -2,7 +2,10 @@
   "title": "Multiplying with Negative Numbers",
   "slides": [
     {
-      "text": "Beyond the Crystal Gate, the mountain changed, and Luna noticed this quickly. THe air grew colder and the path narrower, winding up along the edge of a vast cliff face that dropped away into a swirling mist. But that wasn't the worst part. The wind here wasn't ordinary wind - it howled and pushed with a kind of purpose, as if it had opinions about where you should go. Luna pressed herself against the rock as a gust nearly knocked her sideways, and hoped for the stone guardian to rescue her..."
+      "text": "Beyond the Crystal Gate, the mountain changed, and Luna noticed this quickly. The air grew colder and the path narrower, winding up along the edge of a vast cliff face that dropped away into a swirling mist. But that wasn't the worst part."
+    },
+    {
+      "text": "The wind here wasn't ordinary wind - it howled and pushed with a kind of purpose, as if it had opinions about where you should go. Luna pressed herself against the rock as a gust nearly knocked her sideways, and hoped for the stone guardian to rescue her..."
     },
     { "text": "Yet the mountain guardian didn' appear physically, instead his messages where carried by the howling wind. 'In order to go on, you must understand the laws of negative multiplication, for these are the laws these cliffs obey. Here, getting a wrong answer, also means a very long fall', the voice warned. Luna gripped tighter on the rock and listenedcarefully to the guardian's instructions."
     },
@@ -10,21 +13,30 @@
       "text": "'In these cliffs, a positive number means you are moving forward-upwards toward the summit. A negative number means you are moving backward-downward, towawrd the mist. Every step is a multiplication problem in disguise,' the sone guardian explained. "
     },
     {
-      "text": "The first gust hit without warning, and Luna felt herself pushed backward three steps. Then it happend again. And again. And again. Four times in total, the wind shoved her back 3 metres each time. 'To find how far you've been pushed, you must multiply -3 (the number of metres each time) by 4 (the total number of times). Know that when you multiply one negative and one positive number, the answer is always negative.' Luna took note of this and thought carefully.",
+      "text": "The first gust hit without warning, and Luna felt herself pushed backward three steps. Then it happend again. And again. And again. "
+    },
+    {
+      "text": "It happened four times in total, the wind shoved her back 3 metres each time. 'To find how far you've been pushed, you must multiply -3 (the number of metres each time) by 4 (the total number of times). Know that when you multiply one negative and one positive number, the answer is always negative.'",
       "question": {
       "q": "What is the answer to -3 x 4? Hint: multiply the numbers regularly and add a negative sign to the answer, as negative x positive always equals negative.",
       "a": ["-12.0","-12"]
       }
     },
     {
-      "text": "'Great! You can think of it as moving backwards 3 metres four times, so ofcourse you end up 12 metres BEHIND where you started!' the stone guardian exclaimed. Luna has barely steadid herself, when two winds came from opposite directions and collided directly in front of her with a thunder-like crack. The guardian's voice rose above the noise: 'This is the interesting part. One wind pushes backward -5 metres, but the other wind is a reversal wind, reversing it -2 times. So what happens to you?'",
+      "text": "'Great! You can think of it as moving backwards 3 metres four times, so ofcourse you end up 12 metres BEHIND where you started!' the stone guardian exclaimed. Luna has barely steadid herself, when two winds came from opposite directions and collided directly in front of her with a thunder-like crack."
+    },
+    {
+      "text": "The guardian's voice rose above the noise: 'This is the interesting part. One wind pushes backward -5 metres, but the other wind is a reversal wind, reversing it -2 times. So what happens to you?'",
       "question": {
       "q": "What is -5x-2? Hint: negative times negative is always positive.",
       "a": ["10.0","10"]
       }
     },
     {
-      "text": "Luna felt a sudden push forward, her feet skidding ahead on the crystal path. She thought about what had happened physically too: if you're being pushed backward, and something reverses the backward push-you end up going forward! 'Very Well', the stone guardian approved, 'But the hardest challenge is yet to come...' At the highest point of the mountains, that Luna had reached after many similar calculations, where the mist swirled thickest and the drop below was invisible, stood a spinning portal carved from black stone."
+      "text": "Luna felt a sudden push forward, her feet skidding ahead on the crystal path. She thought about what had happened physically too: if you're being pushed backward, and something reverses the backward push-you end up going forward!"
+    },
+    {
+      "text": "'Very Well', the stone guardian approved, 'But the hardest challenge is yet to come...' At the highest point of the mountains, that Luna had reached after many similar calculations, where the mist swirled thickest and the drop below was invisible, stood a spinning portal carved from black stone."
     },
     {
       "text": "The voice echoed once more. 'This portal pushes all who enter backward -6m each spin, yet the magic within it reverses the spin by -3. All of this is enhanced by the black stone 2 times. Step through, and calculate your fate', he instructed. Luna's hands shivered and her heart was hammering. She ran the calcualtion. Two negatives, one positive. Which one would the answer be?",
@@ -40,7 +52,10 @@
       "text": "Without the howling wind to transfer the voice of the stone guardian, Luna couldn't be sure if he was still watching her, yet she felt that she had mastered the laws of negative multiplication... "
     },
     {
-      "text": "...Afterall, it was quite simple: Negative times negative would always be positive. A positive and a negative would always be negative. And after that, you just follow these rules to find the result for multiplying more than 2 numbers. For a simple tirck, if you have an even number of negative numbers multiplied together, the answer will be positive, but for an odd number of negative numbers multiplied together, the answer will be negative, regardless of the number of positive numbers involved as well."
+      "text": "...Afterall, it was quite simple: Negative times negative would always be positive. A positive and a negative would always be negative. And after that, you just follow these rules to find the result for multiplying more than 2 numbers."
+    },
+    {
+      "text": "For a simple tirck, if you have an even number of negative numbers multiplied together, the answer will be positive, but for an odd number of negative numbers multiplied together, the answer will be negative, regardless of the number of positive numbers involved as well."
     },
     {
       "text": "Luna was nearly at the top, and in due time would contineu climbing to reach it, but even from where she was, the view was pretty epic."

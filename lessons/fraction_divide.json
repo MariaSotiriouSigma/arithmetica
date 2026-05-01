@@ -18,7 +18,10 @@
       "text": "The water then split into equal portions and was delivered to the people of Arithmetica, reassuring them that there is hope for the falls."
     },
     {
-      "text": "Next, Luna found the rivers flowing from the lake at the bottom of the falls, which flowed into channels. She saw that the rivers could carry 2/3 of the water from the lake, and each channel could carry 1/6 of the water flowing in a river. Luna wondered how many channels can be filled with the water carried by the lake? ",
+      "text": "Next, Luna found the rivers flowing from the lake at the bottom of the falls, which flowed into channels. "
+    },
+    {
+      "text": "She saw that the rivers could carry 2/3 of the water from the lake, and each channel could carry 1/6 of the water flowing in a river. Luna wondered how many channels can be filled with the water carried by the lake? ",
       "question": {
       "q": "Solve: 2/3 divided by 1/6. Hint: the flipped fraction, is called the reciprocal of the fraction",
       "a":  ["4", "4/1"]

@@ -2,13 +2,19 @@
   "title": "Multiplying Fractions",
   "slides": [
     {
-      "text": "Peace returned to Arithmetica after the Fraction Falls were restored with addition, only not for long. Beyond the waterfall lay a shadowy place called the fraction forest, where magic didn’t combine- it shrunk and scaled. Yet lately, the magic source seemed to be wearing off, because the trees were shrivelling downwards instead of standing up straight, the flower petals were wrinkled, and the soil was crumbling away. "
-    },
-    { 
-        "text": "Luna, now recognised as the guardian of fractions, was eager to discover this magic and restore it, to arouse the nature of Arithmetica from its dying season. As she stepped cautiously into the forest with her wand glowing softly, a whisper echoed through the leaves: “To find the magic source, you must find a fraction of a fraction…”"
+      "text": "Peace returned to Arithmetica after the Fraction Falls were restored with addition, only not for long. Beyond the waterfall lay a shadowy place called the fraction forest, where magic didn’t combine- it shrunk and scaled. "
     },
     {
-      "text": "After a scary walk into the forest, Luna reached a stone path that was ¾ of a mile long, but only ½ of the path was safe to tread on. Luna thought carefully about how long she would be able to walk on this path: “Hmmm, to find a fraction of a fraction, I must multiply…”",
+      "text": "Yet lately, the magic source seemed to be wearing off, because the trees were shrivelling downwards instead of standing up straight, the flower petals were wrinkled, and the soil was crumbling away. "
+    },
+    { 
+        "text": "Luna, now recognised as the guardian of fractions, was eager to discover this magic and restore it, to arouse the nature of Arithmetica from its dying season."
+    },
+    { 
+        "text": "As she stepped cautiously into the forest with her wand glowing softly, a whisper echoed through the leaves: “To find the magic source, you must find a fraction of a fraction…”"
+    },
+    {
+      "text": "After a silent walk into the forest, Luna reached a stone path that was ¾ of a mile long, but only ½ of the path was safe to tread on. Luna thought carefully about how long she would be able to walk on this path: “Hmmm, to find a fraction of a fraction, I must multiply…”",
       "question": {
       "q": "What is ½ of ¾? Hint: multiply the top numbers, then the bottom numbers, and simplify if you can by dividing both of them by a common factor.",
       "a": "3/8"
@@ -18,7 +24,10 @@
       "text": "As Luna muttered the answer into the cold night air, the safe stones glowed and shifted to form a clear path forward, up to the point at which it was safe."
     },
     {
-      "text": "Deeper in the forest, Luna found a small bowl of a mystical potion fixed on top of a protruding rock. The potion bubbled softly under the moonlight, which shone directly onto the rock, to reveal a hidden recipe. The recipe called for 2/3 of a vial of moon nectar, but as Luna glanced inside the bowl, she noticed that only ¼ of that was needed.",
+      "text": "Deeper in the forest, Luna found a small bowl of a mystical potion fixed on top of a protruding rock."
+    },
+    {
+      "text": "The potion bubbled softly under the moonlight, which shone directly onto the rock, to reveal a hidden recipe. The recipe called for 2/3 of a vial of moon nectar, but as Luna glanced inside the bowl, she noticed that only ¼ of that was needed.",
       "question": {
       "q": "What is ¼ of 2/3? Hint: multiply the fractions, just like before, numerator with numerator, denominator with denominator. ",
       "a":  ["2/12", "1/6"]
@@ -35,10 +44,13 @@
       }
     },
     {
-      "text": "As Luna spoke the answer, the butterflies flapped their wings and formed a neat, straight line that led Luna directly to where she wanted to go. Upon reaching the magic source, Luna was able to restore it using her wand, and make its power stronger than ever before. Within a few moments, the forest and all of Arithmetica was coming back alive and more colourful than it had ever been! "
+      "text": "As Luna spoke the answer, the butterflies flapped their wings and formed a neat, straight line that led Luna directly to where she wanted to go."
     },
     {
-      "text": "As the trees reached up to touch the sky, and the flowers danced in the breeze, a final message hovered in the air in golden light: To multiply fractions, multiply the numerators (top numbers) and multiply the denominators (bottom numbers), simplifying if possible by dividing both numerator and denominator by a common factor. Luna grinned wildly as she stepped out of the fraction forest, knowing she had mastered another kind of magic!"
+      "text": "Upon reaching the magic source, Luna was able to restore it using her wand, and make its power stronger than ever before. Within a few moments, the forest and all of Arithmetica was coming back alive and more colourful than it had ever been! "
+    },
+    {
+      "text": "As leaves of the towering trees and the petals on the flowers swayed in harmony, a final message hovered in the air in golden light: To multiply fractions, multiply the numerators (top numbers) and multiply the denominators (bottom numbers), simplifying if possible by dividing both numerator and denominator by a common factor. Luna grinned wildly as she stepped out of the fraction forest, knowing she had mastered another kind of magic!"
     }
     
   ]
